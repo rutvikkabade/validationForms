@@ -1,0 +1,61 @@
+[debug] [2024-02-09T09:43:05.239Z] ----------------------------------------------------------------------
+[debug] [2024-02-09T09:43:05.242Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-02-09T09:43:05.242Z] CLI Version:   13.2.1
+[debug] [2024-02-09T09:43:05.243Z] Platform:      win32
+[debug] [2024-02-09T09:43:05.243Z] Node Version:  v20.9.0
+[debug] [2024-02-09T09:43:05.243Z] Time:          Fri Feb 09 2024 15:13:05 GMT+0530 (India Standard Time)
+[debug] [2024-02-09T09:43:05.243Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-09T09:43:05.323Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-09T09:43:05.323Z] > authorizing via signed-in user (rutvikkabade2002@gmail.com)
+[debug] [2024-02-09T09:43:05.323Z] [iam] checking project validationforms for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-02-09T09:43:05.326Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions [none]
+[debug] [2024-02-09T09:43:05.326Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions x-goog-quota-user=projects/validationforms
+[debug] [2024-02-09T09:43:05.326Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-02-09T09:43:05.387Z] *** [apiv2] error from fetch(https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions, {"headers":{},"method":"POST","body":"{\"permissions\":[\"firebase.projects.get\",\"firebasehosting.sites.update\"]}"}): FetchError: request to https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions failed, reason: getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com
+[debug] [2024-02-09T09:43:05.388Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions
+[debug] [2024-02-09T09:43:05.389Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/validationforms [none]
+[debug] [2024-02-09T09:43:05.394Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/validationforms, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/validationforms failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com
+[debug] [2024-02-09T09:43:05.394Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/validationforms (original: request to https://firebase.googleapis.com/v1beta1/projects/validationforms failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com)
+[debug] [2024-02-09T09:43:24.671Z] ----------------------------------------------------------------------
+[debug] [2024-02-09T09:43:24.674Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-02-09T09:43:24.674Z] CLI Version:   13.2.1
+[debug] [2024-02-09T09:43:24.675Z] Platform:      win32
+[debug] [2024-02-09T09:43:24.675Z] Node Version:  v20.9.0
+[debug] [2024-02-09T09:43:24.675Z] Time:          Fri Feb 09 2024 15:13:24 GMT+0530 (India Standard Time)
+[debug] [2024-02-09T09:43:24.675Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-09T09:43:24.763Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-09T09:43:24.764Z] > authorizing via signed-in user (rutvikkabade2002@gmail.com)
+[debug] [2024-02-09T09:43:24.764Z] [iam] checking project validationforms for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-02-09T09:43:24.766Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions [none]
+[debug] [2024-02-09T09:43:24.766Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions x-goog-quota-user=projects/validationforms
+[debug] [2024-02-09T09:43:24.767Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-02-09T09:43:24.826Z] *** [apiv2] error from fetch(https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions, {"headers":{},"method":"POST","body":"{\"permissions\":[\"firebase.projects.get\",\"firebasehosting.sites.update\"]}"}): FetchError: request to https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions failed, reason: getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com
+[debug] [2024-02-09T09:43:24.826Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions
+[debug] [2024-02-09T09:43:24.827Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/validationforms [none]
+[debug] [2024-02-09T09:43:24.832Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/validationforms, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/validationforms failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com
+[debug] [2024-02-09T09:43:24.832Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/validationforms (original: request to https://firebase.googleapis.com/v1beta1/projects/validationforms failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com)
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
+[debug] [2024-02-09T09:43:35.777Z] ----------------------------------------------------------------------
+[debug] [2024-02-09T09:43:35.780Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-02-09T09:43:35.781Z] CLI Version:   13.2.1
+[debug] [2024-02-09T09:43:35.781Z] Platform:      win32
+[debug] [2024-02-09T09:43:35.781Z] Node Version:  v20.9.0
+[debug] [2024-02-09T09:43:35.781Z] Time:          Fri Feb 09 2024 15:13:35 GMT+0530 (India Standard Time)
+[debug] [2024-02-09T09:43:35.781Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-09T09:43:35.873Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-09T09:43:35.875Z] > authorizing via signed-in user (rutvikkabade2002@gmail.com)
+[debug] [2024-02-09T09:43:35.875Z] [iam] checking project validationforms for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-02-09T09:43:35.880Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions [none]
+[debug] [2024-02-09T09:43:35.880Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions x-goog-quota-user=projects/validationforms
+[debug] [2024-02-09T09:43:35.881Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-02-09T09:43:36.002Z] *** [apiv2] error from fetch(https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions, {"headers":{},"method":"POST","body":"{\"permissions\":[\"firebase.projects.get\",\"firebasehosting.sites.update\"]}"}): FetchError: request to https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions failed, reason: getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com
+[debug] [2024-02-09T09:43:36.003Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/validationforms:testIamPermissions
+[debug] [2024-02-09T09:43:36.005Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/validationforms [none]
+[debug] [2024-02-09T09:43:36.016Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/validationforms, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/validationforms failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com
+[debug] [2024-02-09T09:43:36.016Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/validationforms (original: request to https://firebase.googleapis.com/v1beta1/projects/validationforms failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com)
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier

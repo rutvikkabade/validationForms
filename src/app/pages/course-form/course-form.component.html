@@ -1,0 +1,30 @@
+<div class="max-w-md mx-auto mt-8 bg-white shadow-md rounded-md p-4">
+  <h2 class="text-xl font-semibold mb-4">Add Course</h2>
+  <form [formGroup]="courseForm"  class="space-y-4">
+    <div>
+      <label for="courseName" class="block text-sm font-medium text-gray-700">Course Name</label>
+      <input type="text" id="courseName" formControlName="courseName" required
+             class="mt-1 p-1 block w-full border rounded-md">
+    </div>
+    <div>
+      <label for="courseDetail" class="block text-sm font-medium text-gray-700">Course Detail</label>
+      <textarea id="courseDetail" formControlName="courseDetail" required
+                class="mt-1 p-1 block w-full border rounded-md"></textarea>
+    </div>
+  
+    <div>
+      <label for="coursePrice" class="block text-sm font-medium text-gray-700">Course Price</label>
+      <input type="number" id="coursePrice" formControlName="coursePrice" required
+             class="mt-1 p-1 block w-full border rounded-md">
+    </div>
+    <!-- <div>
+      <label for="courseFile" (change)="onfile($event)" class="block text-sm font-medium text-gray-700">Course File</label>
+      <input type="file" id="courseFile" formControlName="courseFile"
+             class="mt-1 p-1 block w-full border rounded-md">
+    </div> -->
+    <button type="submit" (click)="onSubmit()"
+            class="bg-blue-500 text-white p-1 rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300 w-full">
+      Add Course
+    </button>
+  </form>
+</div>
